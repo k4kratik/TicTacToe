@@ -137,7 +137,7 @@ def CheckWinner():
 
  
     if Winner==1:
-        messagebox.showinfo(title="Congratulations", message="player1 is the winner")
+        messagebox.showinfo(title="Congratulations", message="Player1 is the winner")
     elif Winner==2:
         messagebox.showinfo(title="Congratulations", message="Player2 is the winner")
 root.mainloop()
