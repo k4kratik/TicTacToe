@@ -1,5 +1,4 @@
 Improvements Needed- 
-
-#add all other possible combinations
-#simplify all combinations
-#add user input as player name 1 & 2
+1. add all other possible combinations
+2. simplify all combinations
+3. add user input as player name 1 & 2
