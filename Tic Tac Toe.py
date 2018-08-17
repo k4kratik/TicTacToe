@@ -1,5 +1,5 @@
 from tkinter import *
-from tkinter import ttk 
+from tkinter import ttk
 from tkinter import messagebox
 
 #Global Variables
@@ -131,15 +131,15 @@ def CheckWinner():
     if((1 in p2) and (5 in p2) and (9 in p2)):
         Winner=2
     if((3 in p1) and (5 in p1) and (7 in p1)):
-        Winner=1
+        Winner=1  
     if((3 in p2) and (5 in p2) and (7 in p2)):
         Winner=2
 
  
     if Winner==1:
         messagebox.showinfo(title="Congratulations", message="Player1 is the winner")
+        root.destroy()
     elif Winner==2:
         messagebox.showinfo(title="Congratulations", message="Player2 is the winner")
+        root.destroy()
 root.mainloop()
-
-
